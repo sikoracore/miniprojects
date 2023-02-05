@@ -17,7 +17,7 @@ const Counter = () => {
 				<MyButton>Вернуться назад</MyButton>
 			</Link>
 			<div className='myCounter section'>
-				<h3 className='title'>Счетчик:</h3>
+				<h3 className='title'>Нажми меня:</h3>
 				<h1 className='subtitle'>{count}</h1>
 				<button onClick={onClickMinus} className='minus button'>- Минус</button>
 				<button onClick={onClickPlus} className='plus button'>Плюс +</button>
